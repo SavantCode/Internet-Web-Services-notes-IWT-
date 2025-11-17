@@ -267,10 +267,28 @@ div {
 ---
 
 ### **e) Layout Adjustments**
+## **Layouts**
 
-* Width and height: `width: 200px; height: 100px;`
-* Display: `block`, `inline`, `inline-block`
-* Flexbox for alignment: `display: flex; justify-content: center; align-items: center;`
+
+
+**Definition:** Layouts determine **how content is arranged** on a web page.
+
+**Methods in HTML/CSS:**
+
+1. **Block layout** – elements stacked vertically (`<div>`, `<p>`)
+2. **Inline layout** – elements flow horizontally (`<span>`, `<a>`)
+3. **CSS Flexbox** – flexible box layout for responsive design
+4. **CSS Grid** – two-dimensional layout for rows and columns
+
+**Example using `<div>`:**
+
+```html
+<div style="width:300px; float:left; background-color:lightblue;">Left Column</div>
+<div style="width:500px; float:right; background-color:lightgreen;">Right Column</div>
+```
+
+---
+
 
 **Example:**
 
@@ -283,9 +301,6 @@ div {
   background-color: lightblue;
 }
 ```
-
----
-
 ## **Summary for Exams**
 
 1. **CSS** separates content from design and makes web pages visually appealing.
